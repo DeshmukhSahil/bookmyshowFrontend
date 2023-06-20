@@ -1,0 +1,85 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+body{
+    background-color: rgb(214, 213, 213);
+    }
+    
+    .container {
+      -webkit-box-align: center;
+      width: 85%;
+      margin: 30px auto;
+      padding: 20px 20px 0px 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      border: 2px solid rgb(0, 0, 0);
+      color: #111111;
+      box-shadow: 15px 15px 15px rgba(120, 120, 122, 0.699);
+    }
+    
+    .container .selection_container {
+      width: 100%;
+    }
+    
+    .select_movie_component {
+      flex-grow: 1;
+      margin: 20px;
+    }
+    
+    .BN-btn {
+      margin: 20px;
+      padding: 10px;
+      border: none;
+      margin-top: 20px;
+      left: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 25px;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      background-image: linear-gradient(rgb(9, 40, 242), rgb(13, 233, 105));
+      border-image: linear-gradient(rgb(10, 40, 233), rgb(10, 225, 99));
+      position: relative;
+      padding-bottom: 10px;
+    }
+    
+    .BN-btn:hover {
+      background-image: linear-gradient(rgb(15, 225, 124), rgb(14, 68, 230));
+      color: #f7eded;
+    }
+    
+    .wrapper {
+      display: flex;
+      flex-grow: 0;
+      overflow: visible;
+    }
+    .time_seats_container {
+      position: relative;
+      overflow: auto;
+      top: -10px;
+    }
+    .SS_wrapper {
+      margin-top: 50px;
+    }
+    
+    @media screen and (max-width: 1300px) {
+      .wrapper {
+        flex-direction: column-reverse;
+      }
+    
+      .time_seats_container {
+        top: 0px;
+      }
+      .last_booking_details_container {
+        margin-bottom: 20px;
+      }
+    }
+    
+    @media screen and (max-width: 500px) {
+      .container {
+        width: 95%;
+        padding: 15px;
+      }
+    }
+    
