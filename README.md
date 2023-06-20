@@ -6,8 +6,8 @@
 
 * to access the website click on the link provided:
 
-[Live-Link!](https://bookmyshow-frontend-navy.vercel.app/)
-## https://bookmyshow-frontend-navy.vercel.app/
+##  Live link:
+*   https://bookmyshow-frontend-eight.vercel.app/
 
 * select the movie
 * select the time schedule
