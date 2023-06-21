@@ -73,7 +73,8 @@
     background-color: green;
   }
   .modal-footer :last-child {
-    background-color: rgba(255, 0, 0, 0.77);
+    background-image: linear-gradient(rgb(9, 40, 242), rgb(13, 233, 105));
+    border-image: linear-gradient(rgb(10, 40, 233), rgb(10, 225, 99));
   }
   
   @keyframes activemodal {
