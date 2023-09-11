@@ -31,7 +31,7 @@ const BsState = (props) => {
 
   // this is a backend api (deployment api ) 
   // const url = "http://localhost:8080"
-  const url = "https://bookmyshowbackend-production.up.railway.app"
+  const url = "https://bookmyshow-t7me.onrender.com"
 
 
   // Function to make a post request to the server with the booking details
